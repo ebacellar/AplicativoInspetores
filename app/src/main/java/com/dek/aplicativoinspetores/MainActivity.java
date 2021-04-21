@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) { chamarRecuperar(); }
         });
 
-        logar.setOnClickListener(new View.OnClickListener() { //Botao para o login 12341234123412342134213412341234234
+        logar.setOnClickListener(new View.OnClickListener() { //Botao para o login
             @Override
             public void onClick(View v) {
                 if (!emaillogin.getText().toString().isEmpty()) {
