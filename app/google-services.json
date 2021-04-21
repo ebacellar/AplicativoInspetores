@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "962236723506",
+    "project_id": "aplicativo-inspetores-tcc-2021",
+    "storage_bucket": "aplicativo-inspetores-tcc-2021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962236723506:android:d688c957b151a58135272b",
+        "android_client_info": {
+          "package_name": "com.dek.aplicativoinspetores"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962236723506-b1a35hd06q73rljpol29k3rh3db73blp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX0Rfg7sLPTByS5hzgdM0KH9Pt9orbHkk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962236723506-b1a35hd06q73rljpol29k3rh3db73blp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

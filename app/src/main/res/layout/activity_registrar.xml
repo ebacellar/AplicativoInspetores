@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/txtemailregistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        app:layout_constraintStart_toEndOf="@+id/lblregistrar"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtsenharegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@+id/txtemailregistro"
+        app:layout_constraintTop_toBottomOf="@+id/txtemailregistro" />
+
+    <TextView
+        android:id="@+id/lblregistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Registro:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/mostrarsenharegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:text="Mostrar senha"
+        app:layout_constraintStart_toStartOf="@+id/cmdcompletarregistro"
+        app:layout_constraintTop_toBottomOf="@+id/txtcpf" />
+
+    <Button
+        android:id="@+id/cmdcompletarregistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:text="Completar registro"
+        app:layout_constraintEnd_toEndOf="@+id/txtcpf"
+        app:layout_constraintTop_toBottomOf="@+id/mostrarsenharegistro" />
+
+    <EditText
+        android:id="@+id/txtconfirmarsenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Confirmar senha"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@+id/txtsenharegistro"
+        app:layout_constraintTop_toBottomOf="@+id/txtsenharegistro" />
+
+    <Button
+        android:id="@+id/cmdvoltartelalogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Voltar para a tela de login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/txtcpf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="CPF"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="@+id/txtconfirmarsenha"
+        app:layout_constraintTop_toBottomOf="@+id/txtconfirmarsenha" />
+</androidx.constraintlayout.widget.ConstraintLayout>
